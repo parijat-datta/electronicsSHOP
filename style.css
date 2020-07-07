@@ -1,6 +1,17 @@
+.navbar-expand-md{
+
+    display: flex;
+  padding:10px 50px;
+  align-items: center;
+}
+
 .jhamela{
 
-   padding:10px 25px;
+   padding:10px 35px;
+}
+.navbar-collapse{
+text-align: center;
+
 }
 .navbar-nav>li>a{
 color:black;
@@ -8,7 +19,7 @@ font-family: 'Poppins', sans-serif;
 
 }
 
-.nav-item{
+.nav-linkgi{
 
     text-align: center;
 }
@@ -86,7 +97,7 @@ font-family: 'Poppins', sans-serif;
 
     padding: 20px 20px;
     padding-bottom: 10px;
-    margin-top: 110px;
+    margin-top: 130px;
 }
 
 .name{
