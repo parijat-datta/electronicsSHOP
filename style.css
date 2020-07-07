@@ -1,4 +1,7 @@
+.jhamela{
 
+   padding:10px 25px;
+}
 .navbar-nav>li>a{
 color:black;
 font-family: 'Poppins', sans-serif;
@@ -143,6 +146,7 @@ text-align: center;
 .categories {
     text-align: center;
     margin-top: 150px;
+   
 }
 
 .cat-underline{
@@ -165,7 +169,7 @@ text-align: center;
 
     .cat-head h4{
         font-family: 'Poppins', sans-serif;
-        font-size: 24px;
+        font-size: 30px;
         margin-top: -20px;
 
     }
