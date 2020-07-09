@@ -9,6 +9,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
 <link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<!--RIght Click Disabled-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <title>Hot Gadgets</title>
 </head>
 <body>
@@ -312,6 +314,15 @@
 
 
 <!--Code Ends Here-->
+
+<!--Right CLick Disabled-->
+
+<script>
+    window.oncontextmenu = function () {
+        console.log("Right Click Disabled");
+        return false;
+    }
+</script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
